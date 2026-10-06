@@ -1,0 +1,10 @@
+name = "wishing-sky-notifier"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+[triggers]
+crons = ["*/10 * * * *"]
+
+[[kv_namespaces]]
+binding = "SKY"
+id = "0507f3808c8c432592ad4e716d7db83f"

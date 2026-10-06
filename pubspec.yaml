@@ -1,0 +1,34 @@
+name: wishing_sky
+description: "A live night sky of exploding stars. Make a wish on one."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.6.0
+  shared_preferences: ^2.5.5
+  speech_to_text: ^7.5.0
+  sensors_plus: ^7.1.1
+  firebase_core: ^4.15.0
+  firebase_messaging: ^16.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/stars.json
+
+  fonts:
+    - family: PatrickHand
+      fonts:
+        - asset: assets/fonts/PatrickHand-Regular.ttf

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1071783420041",
+    "project_id": "wishing-sky-munawer",
+    "storage_bucket": "wishing-sky-munawer.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071783420041:android:c96d1b445397d28e632658",
+        "android_client_info": {
+          "package_name": "com.munawer.wishing_sky"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": ""
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
